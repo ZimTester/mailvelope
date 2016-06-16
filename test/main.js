@@ -41,7 +41,8 @@ define([
   'common/lib/controller/main.controller', // required to bootstrap dependency tree
   'test/common/lib/controller/sub.controller-test',
   'test/common/lib/controller/encrypt.controller-test',
-  'test/common/lib/controller/editor.controller-test'
+  'test/common/lib/controller/editor.controller-test',
+  'test/common/lib/keyserver-test'
 ], function() {
   mocha.run();
 });
